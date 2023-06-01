@@ -1,7 +1,7 @@
 word_list = [
-'abruptly', 
-'absurd', 
-'abyss', 
+'abruptly',
+'absurd',
+'abyss',
 'affix', 
 'askew', 
 'avenue', 
