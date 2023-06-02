@@ -37,7 +37,7 @@ while not end_of_game:
 
         if lives == 0:
             end_of_game = True
-            print("You lose.")
+            print(f"You lose. The chosen word was {chosen_word}.")
 
     # Join all the elements in the list and turn it into a string
     print(f"{' '.join(display)}")
@@ -45,7 +45,7 @@ while not end_of_game:
     # Check if user has got all letters
     if "_" not in display:
         end_of_game = True
-        print("You win.")
+        print("You win!")
 
     from hangman_art import stages
     print(stages[lives])
