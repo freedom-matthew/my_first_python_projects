@@ -1,4 +1,4 @@
-from caesar_cipher_art import logo
+from art import logo
 
 alphabet = [
     'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l',

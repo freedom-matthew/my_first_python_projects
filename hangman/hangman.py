@@ -1,6 +1,6 @@
 import random
-from hangman_art import logo, stages
-from hangman_words import word_list
+from art import logo, stages
+from words import word_list
 
 print(logo)
 
@@ -37,7 +37,7 @@ while not end_of_game:
 
         if lives == 0:
             end_of_game = True
-            print(f"You lose. The chosen word was {chosen_word}.")
+            print(f"You lose. The chosen word was: {chosen_word}.")
 
     # Join all the elements in the list and turn it into a string
     print(f"{' '.join(display)}")
@@ -47,5 +47,4 @@ while not end_of_game:
         end_of_game = True
         print("You win!")
 
-    from hangman_art import stages
     print(stages[lives])
