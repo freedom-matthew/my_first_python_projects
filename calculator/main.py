@@ -1,20 +1,20 @@
 from art import logo
 
 
-def add(n1, n2):
-    return n1 + n2
+def add(n_1, n_2):
+    return n_1 + n_2
 
 
-def subtract(n1, n2):
-    return n1 - n2
+def subtract(n_1, n_2):
+    return n_1 - n_2
 
 
-def multiply(n1, n2):
-    return n1 * n2
+def multiply(n_1, n_2):
+    return n_1 * n_2
 
 
-def divide(n1, n2):
-    return n1 / n2
+def divide(n_1, n_2):
+    return n_1 / n_2
 
 
 operations = {
@@ -44,5 +44,6 @@ def calculator():
         else:
             should_continue = False
             calculator()
+
 
 calculator()
