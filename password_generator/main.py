@@ -35,3 +35,4 @@ for char in password_list:
     password += char
 
 print(f"Your password is: {password}")
+
